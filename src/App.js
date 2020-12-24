@@ -4,12 +4,13 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 
+
 function App() {
   return (
     <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}}
-         to="/landingpage">My Portfolio</Link>} scroll>
+         to="/">My Portfolio</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -18,7 +19,7 @@ function App() {
             </Navigation>
         </Header>
         <Drawer title="Title" title={<Link style={{textDecoration: 'none', color: 'black'}}
-         to="/landingpage">My Portfolio</Link>} scroll>
+         to="/">My Portfolio</Link>} scroll>
             <Navigation>
             <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
