@@ -68,17 +68,17 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div><h1>Thisi s Angular</h1></div>
+                <div><h1>This React</h1></div>
             )
         }
         else if (this.state.activeTab === 2) {
             return (
-                <div><h1>Thisi s VueJS</h1></div>
+                <div><h1>This is Wordpress</h1></div>
             )
         }
         else if (this.state.activeTab === 3) {
             return (
-                <div><h1>Thisi s Python</h1></div>
+                <div><h1>This is Python</h1></div>
             )
         }
 
@@ -90,8 +90,8 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>VueJS</Tab>
+                    <Tab>React</Tab>
+                    <Tab>Wordpress</Tab>
                     <Tab>Python</Tab>
                 </Tabs>
 
