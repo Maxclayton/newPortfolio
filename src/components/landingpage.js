@@ -1,20 +1,25 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import FadeIn from 'react-fade-in';
 import Typewriter from "typewriter-effect";
 
 class LandingPage extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
+        
         <Grid className="landing-grid">
           <Cell col={12}></Cell>
+          <FadeIn>
           <img
             src="https://i.pinimg.com/originals/7c/c7/a6/7cc7a630624d20f7797cb4c8e93c09c1.png"
             alt="avatar"
             className="avatar-img"
           />
-
+          </FadeIn>
+          
           <div className="banner-text">
+            <FadeIn>
             <h1 className="typerAnimation">
               <Typewriter
                 onInit={(typewriter) => {
@@ -34,12 +39,15 @@ class LandingPage extends Component {
                     .deleteAll()
                     .typeString("Max Clayton")
                     .start();
+                    
                 }}
               />
+              
             </h1>
+            
 
             <hr />
-
+                 
             <p>HTML/CSS | Javascript | React | Wordpress | Python | Adobe Creative Cloud</p>
             <div className="social-links">
               {/* LinkedIn */}
@@ -65,10 +73,15 @@ class LandingPage extends Component {
                 target="_blank"
               >
                 <i className="fa fa-envelope-square" aria-hidden="true" />
+                
               </a>
+              
             </div>
+            </FadeIn>
           </div>
+          
         </Grid>
+        
       </div>
     );
   }
