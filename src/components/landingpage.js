@@ -40,7 +40,7 @@ class LandingPage extends Component {
 
             <hr />
 
-            <p>HTML/CSS | Javascript | React | Wordpress | Python </p>
+            <p>HTML/CSS | Javascript | React | Wordpress | Python | Adobe Creative Cloud</p>
             <div className="social-links">
               {/* LinkedIn */}
               <a
