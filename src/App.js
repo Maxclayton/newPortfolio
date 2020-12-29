@@ -11,7 +11,7 @@ function App() {
           className="header-color"
           title={
             <Link style={{ textDecoration: "none", color: "white" }} to="/">
-              My Portfolio
+              Home
             </Link>
           }
           scroll
@@ -26,7 +26,7 @@ function App() {
           title="Title"
           title={
             <Link style={{ textDecoration: "none", color: "black" }} to="/">
-              My Portfolio
+              Home
             </Link>
           }
           scroll

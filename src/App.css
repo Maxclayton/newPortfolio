@@ -1,38 +1,58 @@
 .header-color {
-  background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid{
-  background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.landing-grid {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 
+  flex-flow: column wrap !important;
+  margin: 0 !important;
+  align-items: center !important;
 }
 
 .avatar-img {
-height: 250px;
-padding-top: 5em;
-text-align: center;
-
+  height: 250px;
+  padding-top: 5em;
+  text-align: center;
 }
 
 .banner-text {
   text-align: center;
-  background-color:black; 
-  opacity: .8;
+  background-color: black;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
-  
 }
 
 .banner-text h1 {
@@ -45,11 +65,10 @@ text-align: center;
   border-top: 5px solid white;
   width: 50%;
   margin: auto;
-
 }
 
-.banner-text p  {
-  color:white;
+.banner-text p {
+  color: white;
   font-size: 20px;
   padding: 1em;
 }
@@ -65,12 +84,10 @@ text-align: center;
   color: white;
   font-size: 5em;
   padding: 8px;
-
 }
 
 .projects-grid {
-  display:flex;
-  
+  display: flex;
 }
 
 .contact-body {
@@ -80,7 +97,7 @@ text-align: center;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-grid {
@@ -91,52 +108,38 @@ text-align: center;
   background: white;
   color: black;
   margin-bottom: 20px;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-grid h2 {
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-grid p {
-  font-family: 'Montserrat', sans-serif;
-
- 
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-grid hr {
   border-top: 3px solid black;
   width: 50%;
   margin: auto;
-  font-family: 'Montserrat', sans-serif;
-  
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
-  
-  
-  
 }
 
-
-/* resume Page Css*/ 
+/* resume Page Css*/
 .resume-right-col {
-  background: #27221F;
+  background: #27221f;
   color: white;
   padding: 2em;
 }
 
-
-
-
-
 @media only screen and (max-width: 600px) {
-  .banner-text  {
+  .banner-text {
     width: 75%;
   }
   .social-links {
@@ -147,8 +150,7 @@ text-align: center;
   }
   .avatar-img {
     height: 200px;
-    margin-left: 22%;
     padding-top: 90px;
-
   }
+
 }
